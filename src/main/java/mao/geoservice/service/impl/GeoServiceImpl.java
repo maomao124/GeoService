@@ -140,7 +140,7 @@ public class GeoServiceImpl implements GeoService
      * @param point           点
      * @param pointList       点列表
      */
-    private void stringToPoint2DDouble(String pointString, String pointListString,
+    public void stringToPoint2DDouble(String pointString, String pointListString,
                                        Point2D.Double point, List<Point2D.Double> pointList)
     {
         List list = (List) JSONArray.parse(pointListString);
